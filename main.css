@@ -1,0 +1,320 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: sans-serif;
+    background: url("i (1).webp");
+    background-size: cover;
+}
+.container{
+    width: 600px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.data__container{
+    padding: 50px;
+}
+.data__title{
+    text-align: center;
+    text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+    color: #fff;
+}
+.data__desc{
+    font-size: 25px;
+    text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+    color: #fff;
+}
+#input__data{
+    padding: 6px 15px;
+    font-size: 18px;
+}
+.data__form{
+    text-align: center;
+}
+.input__box{
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.data__btn{
+    width: 250px;
+    height: 50px;
+    font-size: 22px;
+    margin: 0 auto;
+    background: linear-gradient(to left, blue, red);
+    color: #fff;
+}
+.data__btn:hover{
+    background: linear-gradient(to right, blue, red);
+}
+.result{
+    font-size: 22px;
+}
+.data__container h2{
+    padding: 12px 0;
+}
+
+
+@media(max-width: 600px)
+{
+    .container{
+        width: 500px;
+        height: 500px;
+        margin: auto;
+        background-color: #fff;
+        border-radius: 20px;
+    }
+    .data__container{
+        padding: 50px;
+    }
+    .data__title{
+        text-align: center;
+        text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+        color: #fff;
+        font-size: 25px;
+        margin: 0;
+    }
+    .data__desc{
+        font-size: 22px;
+        text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+        color: #fff;
+    }
+    #input__data{
+        padding: 5px 15px;
+        font-size: 18px;
+    }
+    .data__form{
+        text-align: center;
+    }
+    .input__box{
+        padding-top: 50px;
+        padding-bottom: 25px;
+    }
+    .data__btn{
+        width: 200px;
+        height: 40px;
+        font-size: 20px;
+        margin: 0 auto;
+        background: linear-gradient(to left, blue, red);
+        color: #fff;
+    }
+    .data__container h2{
+        font-size: 22px;
+        padding: 15px 0;
+    }
+}
+
+@media(max-width: 500px)
+{
+    .container{
+        width: 400px;
+        height: 400px;
+        margin: auto;
+        background-color: #fff;
+        border-radius: 20px;
+    }
+    .data__container{
+        padding: 50px;
+    }
+    .data__title{
+        text-align: center;
+        text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+        color: #fff;
+        font-size: 20px;
+        margin: 0;
+    }
+    .data__desc{
+        font-size: 16px;
+        text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+        color: #fff;
+    }
+    #input__data{
+        padding: 5px 12px;
+        font-size: 14px;
+    }
+    .data__form{
+        text-align: center;
+    }
+    .input__box{
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    .data__btn{
+        width: 140px;
+        height: 30px;
+        font-size: 15px;
+        margin: 0 auto;
+        background: linear-gradient(to left, blue, red);
+        color: #fff;
+    }
+    .data__container h2{
+        font-size: 16px;
+        padding: 12px 0;
+    }
+    .result{
+        font-size: 15px;
+    }
+}
+@media(max-width: 400px)
+{
+    .container{
+        width: 300px;
+        height: 300px;
+        margin: auto;
+        background-color: #fff;
+        border-radius: 20px;
+    }
+    .data__container{
+        padding: 25px;
+    }
+    .data__title{
+        text-align: center;
+        text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+        color: #fff;
+        font-size: 18px;
+        margin: 0;
+    }
+    .data__desc{
+        font-size: 14px;
+        text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+        color: #fff;
+    }
+    #input__data{
+        padding: 4px 10px;
+        font-size: 12px;
+    }
+    .data__form{
+        text-align: center;
+    }
+    .input__box{
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+    .data__btn{
+        width: 120px;
+        height: 30px;
+        font-size: 14px;
+        margin: 0 auto;
+        background: linear-gradient(to left, blue, red);
+        color: #fff;
+    }
+    .data__container h2{
+        font-size: 12px;
+        padding: 8px 0;
+    }
+    .result{
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 300px)
+{
+    .container{
+        width: 250px;
+        height: 250px;
+        margin: auto;
+        background-color: #fff;
+        border-radius: 15px;
+    }
+    .data__container{
+        padding: 20px;
+    }
+    .data__title{
+        text-align: center;
+        text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+        color: #fff;
+        font-size: 15px;
+        margin: 0;
+    }
+    .data__desc{
+        font-size: 11px;
+        text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+        color: #fff;
+    }
+    #input__data{
+        padding: 3px 8px;
+        font-size: 10px;
+    }
+    .data__form{
+        text-align: center;
+    }
+    .input__box{
+        padding-top: 35px;
+        padding-bottom: 25px;
+    }
+    .data__btn{
+        width: 80px;
+        height: 22px;
+        font-size: 11px;
+        margin: 0 auto;
+        background: linear-gradient(to left, blue, red);
+        color: #fff;
+    }
+    .data__container h2{
+        font-size: 10px;
+        padding: 6px 0;
+    }
+    .result{
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 250px)
+{
+    .container{
+        width: 200px;
+        height: 200px;
+        margin: auto;
+        background-color: #fff;
+        border-radius: 15px;
+    }
+    .data__container{
+        padding: 15px;
+    }
+    .data__title{
+        text-align: center;
+        text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+        color: #fff;
+        font-size: 12px;
+        margin: 0;
+    }
+    .data__desc{
+        font-size: 9px;
+        text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+        color: #fff;
+    }
+    #input__data{
+        font-size: 7px;
+    }
+    .data__form{
+        text-align: center;
+    }
+    .input__box{
+        padding-top: 25px;
+        padding-bottom: 15px;
+    }
+    .data__btn{
+        width: 60px;
+        height: 16px;
+        border: 0;
+        font-size: 7px;
+        margin: 0 auto;
+        background: linear-gradient(to left, blue, red);
+        color: #fff;
+    }
+    .data__container h2{
+        font-size: 8px;
+        padding: 6px 0;
+    }
+    .result{
+        font-size: 8px;
+    }
+}
